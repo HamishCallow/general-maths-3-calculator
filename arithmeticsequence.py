@@ -1,5 +1,5 @@
 
-def arithmatic_sequence():
+def arithmetic_sequence():
     a = float(input("enter first term: "))
     d = float(input("enter common difference: "))
     n = int(input("enter number of terms: "))
