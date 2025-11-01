@@ -1,10 +1,12 @@
 from arithmeticsequence import arithmetic_sequence
 from geometricsequence import geometric_sequence
+from arithmeticseries import arithmetic_series
 
 def main():
     functions = {
         1: ("arithmetic_sequence", arithmetic_sequence),
-        2: ("geometric_sequence", geometric_sequence)
+        2: ("geometric_sequence", geometric_sequence),
+        3: ("arithmetic_series", arithmetic_series)
     }
 
     print("Available formulas")
